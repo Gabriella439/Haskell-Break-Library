@@ -60,6 +60,7 @@ import Control.Monad.Trans.Except (ExceptT, runExceptT, throwE)
 import Control.Monad.Cont   (MonadCont  )
 import Control.Monad.State  (MonadState )
 import Control.Monad.Writer (MonadWriter)
+import Control.Monad.Reader (MonadReader)
 import Prelude hiding (break)
 
 {-| For the most common use cases you will:
@@ -89,6 +90,7 @@ newtype Break r m a = Break { unBreak :: ExceptT r m a }
     , MonadCont
     , MonadState  s
     , MonadWriter w
+    , MonadReader d
     )
 
 {-| `break` from a `loop`
