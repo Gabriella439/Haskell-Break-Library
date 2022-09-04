@@ -4,10 +4,10 @@ Cabal-Version: >=1.10
 Build-Type: Simple
 License: BSD3
 License-File: LICENSE
-Copyright: 2015 Gabriel Gonzalez
-Author: Gabriel Gonzalez
-Maintainer: Gabriel439@gmail.com
-Bug-Reports: https://github.com/Gabriel439/Haskell-Break-Library/issues
+Copyright: 2015 Gabriella Gonzalez
+Author: Gabriella Gonzalez
+Maintainer: GenuineGabriella@gmail.com
+Bug-Reports: https://github.com/Gabriella439/Haskell-Break-Library/issues
 Synopsis: Break from a loop
 Description: This library provides a simple and general API for exiting from
     loops
@@ -16,7 +16,7 @@ Description: This library provides a simple and general API for exiting from
 Category: Control
 Source-Repository head
     Type: git
-    Location: https://github.com/Gabriel439/Haskell-Break-Library
+    Location: https://github.com/Gabriella439/Haskell-Break-Library
 
 Library
     HS-Source-Dirs: src
